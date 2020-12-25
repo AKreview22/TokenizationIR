@@ -111,7 +111,7 @@ public class SimilaritiesCalc {
                 temp = new TreeMap<>();
                 temp.putAll(m.getValue());
                 for (Map.Entry<String, ArrayList<Double>> n : temp.entrySet()) {
-                    String str = "Doc" + j;
+                    String str = "Doc" + j + ".txt";
                     if (n.getKey().equals(str)) {
                         sum += Math.pow(n.getValue().get(0), 2);
                         break;
@@ -119,7 +119,7 @@ public class SimilaritiesCalc {
 
                 }
             }
-            lengthDoc.put("Doc" + j, Math.sqrt(sum));
+            lengthDoc.put("Doc" + j + ".txt" , Math.sqrt(sum));
         }
     }
 
@@ -132,17 +132,13 @@ public class SimilaritiesCalc {
             temp = new TreeMap<>();
             temp.putAll(m.getValue());
             for (Map.Entry<String, ArrayList<Double>> n : temp.entrySet()) {
+                temp1 = new ArrayList<>();
                 String innerKey = n.getKey();
-                for (Map.Entry<String, Double> k : lengthDoc.entrySet()) {
-                    temp1 = new ArrayList<>();
-                    if (n.getKey().equals(k.getKey())) {
-                        temp1.add(n.getValue().get(0) / k.getValue());
-                        break;
-                    }
-                    temp.replace(innerKey, temp1);
-                }
-                normalizeDoc.replace(outerKey, temp);
+                temp1.add(0,lengthDoc.get(n.getKey())/n.getValue().get(0));
+                temp.replace(innerKey,temp1 );
+
             }
+            normalizeDoc.replace(outerKey, temp);
         }
     }
 
@@ -197,9 +193,9 @@ public class SimilaritiesCalc {
         for (int i = 0; i < 10; i++) {
             Double sum = 0.0;
             for (Map.Entry<String, Double> m : normalizeQue.entrySet()) {
-                if (normalizeDoc.get(m.getKey()).get("Doc" + i) != null) {
+                if (normalizeDoc.get(m.getKey()).get("Doc" + i + ".txt") != null) {
                     temp = new ArrayList<>();
-                    temp.addAll(normalizeDoc.get(m.getKey()).get("Doc" + i));
+                    temp.addAll(normalizeDoc.get(m.getKey()).get("Doc" + i + ".txt"));
                     sum += temp.get(0) * m.getValue();
                 }
 

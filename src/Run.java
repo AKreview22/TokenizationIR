@@ -27,16 +27,16 @@ public class Run {
         hashMap hm = new hashMap();
         tokenizer t = new tokenizer();
         files.addAll(fileHandler.createNfiles(10));
-        fileHandler.writeFile(files.get(0), "Oh, baby");
-        fileHandler.writeFile(files.get(1), "Where are you now when I need you most ?");
-        fileHandler.writeFile(files.get(2), "I give it all just to hold you close");
-        fileHandler.writeFile(files.get(3), "Sorry that I broke your heart, your heart");
-        fileHandler.writeFile(files.get(4), "I said, baby heart");
-        fileHandler.writeFile(files.get(5), "I treat you better than I did before");
-        fileHandler.writeFile(files.get(6), "I hold you down, when I let you go");
-        fileHandler.writeFile(files.get(7), "This time I won't break your heart, your heart, yeah");
-        fileHandler.writeFile(files.get(8), "I know it's all my fault");
-        fileHandler.writeFile(files.get(9), "Made you put down your guard");
+        fileHandler.writeFile(files.get(0), "An information retrieval process begins when a user enters a query into the system");
+        fileHandler.writeFile(files.get(1), "Queries are formal statements of information needs");
+        fileHandler.writeFile(files.get(2), "for example search strings in web search engines");
+        fileHandler.writeFile(files.get(3), "In information retrieval a query does not uniquely identify a single object in the collection");
+        fileHandler.writeFile(files.get(4), "instead, several objects may match the query, perhaps with different degrees of relevancy.");
+        fileHandler.writeFile(files.get(5), "An object is an entity that is represented by information in a content collection or database");
+        fileHandler.writeFile(files.get(6), "User queries are matched against the database information");
+        fileHandler.writeFile(files.get(7), "However, as opposed to classical SQL queries of a database");
+        fileHandler.writeFile(files.get(8), "in information retrieval the results returned may or may not match the query");
+        fileHandler.writeFile(files.get(9), "so results are typically ranked");
         tokensMap.putAll(hashMap.tokensMap(files));
         for(Map.Entry<String, TreeMap<String, ArrayList<Double>>> m:tokensMap.entrySet()){
             System.out.println(m);
@@ -57,9 +57,11 @@ public class Run {
         sc.tfWeightQue();
         sc.tf_idfAndLengthQue();
         sc.normalizeQue();
+        sc.similarities();
 
-        for (int i = 0; i < 10; i++) {
-            System.out.printf("Similaritis(q,%dd)= %d\n", i, sc.similarities.get(i));
+
+        for(int i=0;i<sc.similarities.size();i++){
+            System.out.println("Similariries(q,d"+ i+") = "+sc.similarities.get(i));
         }
 
     }

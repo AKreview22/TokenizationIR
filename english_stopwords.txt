@@ -125,3 +125,11 @@ just
 don
 should
 now
+wont
+shouldnt
+wouldnt
+its
+hes
+shes
+im
+were

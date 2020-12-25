@@ -19,30 +19,11 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="ab3422dd-6b41-4e63-93d7-f5727c08b096" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Run.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/SimilaritiesCalc.java" afterDir="false" />
+    <list default="true" id="ab3422dd-6b41-4e63-93d7-f5727c08b096" name="Default Changelist" comment="added stuff">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Doc0.txt" beforeDir="false" afterPath="$PROJECT_DIR$/Doc0.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Doc1.txt" beforeDir="false" afterPath="$PROJECT_DIR$/Doc1.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Doc2.txt" beforeDir="false" afterPath="$PROJECT_DIR$/Doc2.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Doc3.txt" beforeDir="false" afterPath="$PROJECT_DIR$/Doc3.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Doc4.txt" beforeDir="false" afterPath="$PROJECT_DIR$/Doc4.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Doc5.txt" beforeDir="false" afterPath="$PROJECT_DIR$/Doc5.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Doc6.txt" beforeDir="false" afterPath="$PROJECT_DIR$/Doc6.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Doc7.txt" beforeDir="false" afterPath="$PROJECT_DIR$/Doc7.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Doc8.txt" beforeDir="false" afterPath="$PROJECT_DIR$/Doc8.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Doc9.txt" beforeDir="false" afterPath="$PROJECT_DIR$/Doc9.txt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/english_stopwords.txt" beforeDir="false" afterPath="$PROJECT_DIR$/english_stopwords.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/TokenizationIR/Main.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/TokenizationIR/Main.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/TokenizationIR/fileHandler.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/TokenizationIR/fileHandler.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/TokenizationIR/queryHandler.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/fileHandler.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/fileHandler.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/hashMap.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/hashMap.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/queryHandler.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/tokenizer.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/tokenizer.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Run.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Run.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/SimilaritiesCalc.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/SimilaritiesCalc.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -98,6 +79,21 @@
       <option name="presentableId" value="Default" />
       <updated>1608820089540</updated>
     </task>
+    <task id="LOCAL-00001" summary="added stuff">
+      <created>1608866517042</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1608866517042</updated>
+    </task>
+    <task id="LOCAL-00002" summary="added stuff">
+      <created>1608866531143</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1608866531143</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -112,32 +108,36 @@
     </option>
     <option name="oldMeFiltersMigrated" value="true" />
   </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="added stuff" />
+    <option name="LAST_COMMIT_MESSAGE" value="added stuff" />
+  </component>
   <component name="WindowStateProjectService">
-    <state width="1703" height="328" key="GridCell.Tab.0.bottom" timestamp="1608866389893">
+    <state width="1703" height="182" key="GridCell.Tab.0.bottom" timestamp="1608903310673">
       <screen x="-1085" y="-1055" width="3840" height="1055" />
     </state>
-    <state width="1703" height="328" key="GridCell.Tab.0.bottom/-1085.-1055.3840.1055/0.25.1792.1010@-1085.-1055.3840.1055" timestamp="1608866389893" />
+    <state width="1703" height="182" key="GridCell.Tab.0.bottom/-1085.-1055.3840.1055/0.25.1792.1010@-1085.-1055.3840.1055" timestamp="1608903310673" />
     <state width="1431" height="328" key="GridCell.Tab.0.bottom/-1085.-1055.3840.1055/0.25.1792.1010@0.25.1792.1010" timestamp="1608854219422" />
     <state width="1431" height="328" key="GridCell.Tab.0.bottom/-1085.-1055.3840.970/0.25.1792.1095@-1085.-1055.3840.970" timestamp="1608857009357" />
     <state width="1750" height="328" key="GridCell.Tab.0.bottom/-1085.-1080.3840.1080/0.0.1792.1120@0.0.1792.1120" timestamp="1608853123050" />
-    <state width="1703" height="328" key="GridCell.Tab.0.center" timestamp="1608866389892">
+    <state width="1703" height="182" key="GridCell.Tab.0.center" timestamp="1608903310673">
       <screen x="-1085" y="-1055" width="3840" height="1055" />
     </state>
-    <state width="1703" height="328" key="GridCell.Tab.0.center/-1085.-1055.3840.1055/0.25.1792.1010@-1085.-1055.3840.1055" timestamp="1608866389892" />
+    <state width="1703" height="182" key="GridCell.Tab.0.center/-1085.-1055.3840.1055/0.25.1792.1010@-1085.-1055.3840.1055" timestamp="1608903310673" />
     <state width="1431" height="328" key="GridCell.Tab.0.center/-1085.-1055.3840.1055/0.25.1792.1010@0.25.1792.1010" timestamp="1608854219421" />
     <state width="1431" height="328" key="GridCell.Tab.0.center/-1085.-1055.3840.970/0.25.1792.1095@-1085.-1055.3840.970" timestamp="1608857009356" />
     <state width="1750" height="328" key="GridCell.Tab.0.center/-1085.-1080.3840.1080/0.0.1792.1120@0.0.1792.1120" timestamp="1608853123048" />
-    <state width="1703" height="328" key="GridCell.Tab.0.left" timestamp="1608866389892">
+    <state width="1703" height="182" key="GridCell.Tab.0.left" timestamp="1608903310672">
       <screen x="-1085" y="-1055" width="3840" height="1055" />
     </state>
-    <state width="1703" height="328" key="GridCell.Tab.0.left/-1085.-1055.3840.1055/0.25.1792.1010@-1085.-1055.3840.1055" timestamp="1608866389892" />
+    <state width="1703" height="182" key="GridCell.Tab.0.left/-1085.-1055.3840.1055/0.25.1792.1010@-1085.-1055.3840.1055" timestamp="1608903310672" />
     <state width="1431" height="328" key="GridCell.Tab.0.left/-1085.-1055.3840.1055/0.25.1792.1010@0.25.1792.1010" timestamp="1608854219421" />
     <state width="1431" height="328" key="GridCell.Tab.0.left/-1085.-1055.3840.970/0.25.1792.1095@-1085.-1055.3840.970" timestamp="1608857009356" />
     <state width="1750" height="328" key="GridCell.Tab.0.left/-1085.-1080.3840.1080/0.0.1792.1120@0.0.1792.1120" timestamp="1608853123048" />
-    <state width="1703" height="328" key="GridCell.Tab.0.right" timestamp="1608866389892">
+    <state width="1703" height="182" key="GridCell.Tab.0.right" timestamp="1608903310673">
       <screen x="-1085" y="-1055" width="3840" height="1055" />
     </state>
-    <state width="1703" height="328" key="GridCell.Tab.0.right/-1085.-1055.3840.1055/0.25.1792.1010@-1085.-1055.3840.1055" timestamp="1608866389892" />
+    <state width="1703" height="182" key="GridCell.Tab.0.right/-1085.-1055.3840.1055/0.25.1792.1010@-1085.-1055.3840.1055" timestamp="1608903310673" />
     <state width="1431" height="328" key="GridCell.Tab.0.right/-1085.-1055.3840.1055/0.25.1792.1010@0.25.1792.1010" timestamp="1608854219422" />
     <state width="1431" height="328" key="GridCell.Tab.0.right/-1085.-1055.3840.970/0.25.1792.1095@-1085.-1055.3840.970" timestamp="1608857009357" />
     <state width="1750" height="328" key="GridCell.Tab.0.right/-1085.-1080.3840.1080/0.0.1792.1120@0.0.1792.1120" timestamp="1608853123049" />
@@ -145,21 +145,25 @@
       <screen x="0" y="25" width="1792" height="1010" />
     </state>
     <state x="384" y="108" key="SettingsEditor/-1085.-1055.3840.1055/0.25.1792.1010@0.25.1792.1010" timestamp="1608820811198" />
-    <state x="79" y="30" width="1467" height="923" key="dock-window-1" timestamp="1608855628600">
+    <state x="-611" y="-791" key="Vcs.Push.Dialog.v2" timestamp="1608866538173">
+      <screen x="-1085" y="-1055" width="3840" height="1055" />
+    </state>
+    <state x="-611" y="-791" key="Vcs.Push.Dialog.v2/-1085.-1055.3840.1055/0.25.1792.1010@-1085.-1055.3840.1055" timestamp="1608866538173" />
+    <state x="120" y="88" width="1467" height="923" key="dock-window-1" timestamp="1608899360547">
       <screen x="0" y="25" width="1792" height="1010" />
     </state>
-    <state x="79" y="30" width="1467" height="923" key="dock-window-1/-1085.-1055.3840.1055/0.25.1792.1010@-1085.-1055.3840.1055" timestamp="1608855628600" />
-    <state x="1744" y="-526" width="1009" height="524" key="dock-window-2" timestamp="1608863577290">
+    <state x="120" y="88" width="1467" height="923" key="dock-window-1/-1085.-1055.3840.1055/0.25.1792.1010@-1085.-1055.3840.1055" timestamp="1608899360547" />
+    <state x="1744" y="-526" width="1009" height="524" key="dock-window-2" timestamp="1608897189906">
       <screen x="-1085" y="-1055" width="3840" height="1055" />
     </state>
-    <state x="1744" y="-526" width="1009" height="524" key="dock-window-2/-1085.-1055.3840.1055/0.25.1792.1010@-1085.-1055.3840.1055" timestamp="1608863577290" />
-    <state x="822" y="-1024" width="920" height="495" key="dock-window-3" timestamp="1608863577291">
+    <state x="1744" y="-526" width="1009" height="524" key="dock-window-2/-1085.-1055.3840.1055/0.25.1792.1010@-1085.-1055.3840.1055" timestamp="1608897189906" />
+    <state x="822" y="-1024" width="920" height="495" key="dock-window-3" timestamp="1608897189906">
       <screen x="-1085" y="-1055" width="3840" height="1055" />
     </state>
-    <state x="822" y="-1024" width="920" height="495" key="dock-window-3/-1085.-1055.3840.1055/0.25.1792.1010@-1085.-1055.3840.1055" timestamp="1608863577291" />
-    <state x="1743" y="-1053" width="1010" height="524" key="dock-window-4" timestamp="1608863577291">
+    <state x="822" y="-1024" width="920" height="495" key="dock-window-3/-1085.-1055.3840.1055/0.25.1792.1010@-1085.-1055.3840.1055" timestamp="1608897189906" />
+    <state x="1743" y="-1053" width="1010" height="524" key="dock-window-4" timestamp="1608897189906">
       <screen x="-1085" y="-1055" width="3840" height="1055" />
     </state>
-    <state x="1743" y="-1053" width="1010" height="524" key="dock-window-4/-1085.-1055.3840.1055/0.25.1792.1010@-1085.-1055.3840.1055" timestamp="1608863577291" />
+    <state x="1743" y="-1053" width="1010" height="524" key="dock-window-4/-1085.-1055.3840.1055/0.25.1792.1010@-1085.-1055.3840.1055" timestamp="1608897189906" />
   </component>
 </project>
