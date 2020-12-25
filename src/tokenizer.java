@@ -45,6 +45,24 @@ public class tokenizer {
         return arrSortredTokens;
     }
 
+    public static ArrayList<String> sortedUnrepeatedTokens(String data) throws IOException {
+        String tokens[]=tokenize(data);
+        Arrays.sort(tokens);
+        List<String> sortedTokens = (List<String>) Arrays.asList(tokens);
+        ArrayList<String> arrSortredTokens = new ArrayList<>(sortedTokens);
+
+        for(int i=arrSortredTokens.size()-1; i>0; i--) {
+            for(int j=i-1; j>=0; j--) {
+                if(arrSortredTokens.get(i).equals(arrSortredTokens.get(j))) {
+                    arrSortredTokens.remove(i);
+                    break;
+                }
+            }
+        }
+
+        return arrSortredTokens;
+    }
+
 
     public static List<String> loadStopwords() throws IOException {
         List<String> stopwords;

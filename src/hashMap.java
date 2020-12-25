@@ -7,14 +7,18 @@ public class hashMap {
 
     public static TreeMap<String,ArrayList<Double>> DocPositions(String tokenName , ArrayList<File> myFiles ) throws IOException {
 
+
         TreeMap<String,ArrayList<Double>> map = new TreeMap<>() ;
         ArrayList<String> filesNames = searchFiles.tokenFiles(tokenName,myFiles);
 
         for ( int i = 0 ; i < filesNames.size() ; i++ )
         {
             String currentDoc = filesNames.get(i);
-            ArrayList<Double> positions = searchFiles.tokenPositions(tokenName,myFiles.get(i));
-            map.put(currentDoc,positions);
+            int currentDocument = Character.getNumericValue(currentDoc.charAt(3));
+            ArrayList<Double> positions = searchFiles.tokenPositions(tokenName,myFiles.get(currentDocument));
+            if (!positions.isEmpty()) {
+                map.put(currentDoc, positions);
+            }
         }
         return map ;
     }
@@ -25,12 +29,14 @@ public class hashMap {
                 new TreeMap<String,TreeMap<String,ArrayList<Double>>>();
 
         ArrayList<String> filesContent = fileHandler.readNfiles(myFiles);
-        ArrayList<String> tokens = tokenizer.sortedTokens(filesContent.toString());
+        ArrayList<String> tokens = tokenizer.sortedUnrepeatedTokens(filesContent.toString());
+        TreeMap<String,ArrayList<Double>> innerMap;
 
-        for ( int i = 0 ; i <tokens.size() ; i++)
+        for ( int i = 0 ; i < tokens.size() ; i++)
         {
-            TreeMap<String,ArrayList<Double>> innerMap = DocPositions(tokens.get(i),myFiles);
-            tokenMap.put(tokens.get(i),innerMap);
+            innerMap = DocPositions(tokens.get(i),myFiles);
+            tokenMap.put(tokens.get(i), innerMap);
+
         }
         return tokenMap;
     }
